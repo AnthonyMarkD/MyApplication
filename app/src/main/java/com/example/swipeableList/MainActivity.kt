@@ -70,7 +70,7 @@ fun Card(boolean: Boolean, updateState: (Boolean) -> Unit) {
             .padding(start = swipeAbleState.offset.value.dp),
         shape = MaterialTheme.shapes.medium
     ) {
-        Column() {
+        Column {
 
 
             Row(
