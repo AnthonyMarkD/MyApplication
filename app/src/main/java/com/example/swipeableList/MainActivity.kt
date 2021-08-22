@@ -68,7 +68,6 @@ fun Card(boolean: Boolean, updateState: (Boolean) -> Unit) {
 
             )
             .padding(start = swipeAbleState.offset.value.dp),
-//            .offset {  (IntOffset(swipeAbleState.offset.value.roundToInt(), 0))},
         shape = MaterialTheme.shapes.medium
     ) {
         Column() {
