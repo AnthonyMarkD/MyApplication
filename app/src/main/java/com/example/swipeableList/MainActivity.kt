@@ -49,7 +49,7 @@ fun Card(boolean: Boolean, updateState: (Boolean) -> Unit) {
                 true
             })
 
-    //println("${swipeAbleState.targetValue}")
+    // println("${swipeAbleState.targetValue}")
 
     val anchors = mapOf(0f to false, 48f to true)
     Card(
